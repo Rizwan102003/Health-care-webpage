@@ -1,5 +1,9 @@
 import React from 'react'
 export default function Carousel( ){
+  const carouselInner={
+    height:'600px',
+    width:'100%'
+  }
     return(
         <div id="carouselExampleDark" className="carousel carousel-dark slide">
   <div className="carousel-indicators">
@@ -9,21 +13,21 @@ export default function Carousel( ){
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-      <img src="./image1.png"  alt="m"   width="100%"  />
+      <img src="./image1.png"  alt="m"    style={carouselInner} />
       <div className="carousel-caption ">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="3000">
-      <img src="./image3.png"  alt="n"  width="100%"/>
+      <img src="./image3.png"  alt="n"   style={carouselInner}/>
       <div className="carousel-caption ">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src="./image2.png" className="d-block w-100" alt="o"  width="100%" />
+      <img src="./image2.png" className="d-block w-100" alt="o"   style={carouselInner} />
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
