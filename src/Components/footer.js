@@ -1,8 +1,8 @@
 import React from 'react'
 export default function Footer( ){
     const footer1 ={
-        backgroundColor: 'pink',
-        color: 'black',
+        backgroundColor: 'black',
+        color: 'white',
         padding: '20px',
         border: '2px solid #000'
     };
@@ -15,18 +15,11 @@ export default function Footer( ){
     const footerSection = {
         flex: '1',
         margin: '20px'
-    };
-    
-    
-    
-   
-    
-    
-   
-    
+    };    
     const footerBottom ={
         backgroundColor: '#222',
         textAlign: 'center',
+        color: 'white',
         padding: '10px 0'
     };
     
